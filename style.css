@@ -1,0 +1,174 @@
+body {
+
+background-color: rgba(20, 10, 161,0.8);
+
+color: rgb(54, 54, 54);
+
+font-family: 'Abel', sans-serif;
+
+font-size: 15px;
+
+font-weight: normal;
+
+}
+
+h1 {
+
+color: rgb(23, 44, 179);
+
+font-family: 'Bebas Neue', cursive;
+
+font-weight: 700;
+
+letter-spacing: 3px;
+
+font-size: 45px;
+
+}
+
+h2 {
+
+color: rgb(20, 10, 161);
+
+font-family: 'Bebas Neue', cursive;
+
+font-weight: 700;
+
+letter-spacing: 7px;
+
+font-size: 30px;
+
+}
+
+h3 {
+
+color: black;
+
+font-family: 'Bebas Neue', cursive;
+
+font-weight: 700;
+
+letter-spacing: 2px;
+
+font-size: 30px;
+
+}
+
+a {
+
+text-decoration: none;
+
+color: black;
+
+font-weight: bold;
+
+font-size: 14px;
+
+}
+
+.container {
+
+width: 700px;
+
+margin: 35px auto;
+
+}
+
+@media (max-width: 750px) {
+
+.container {
+
+width: 600px;
+
+}
+
+}
+
+@media (max-width: 500px) {
+
+.container {
+
+width: 400px;
+
+}
+
+}
+
+.card-white {
+
+background: white;
+
+padding: 35px;
+
+box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+
+border-radius: 5px;
+
+margin: 20px 0px;
+
+text-align: center;
+
+}
+
+.img-circle {
+
+border-radius: 50%;
+
+}
+
+.btn-blue{
+
+background-color: rgb(20, 10, 161);
+
+color: white;
+
+padding: 15px 20px;
+
+border-radius: 5px;
+
+box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+
+}
+
+.btn-blue:hover {
+
+background-color: rgb(120, 120, 120);
+
+color: white;
+
+}
+
+.list-inline {
+
+list-style: none;
+
+padding-left: 0px;
+
+}
+
+.list-inline li {
+
+display: inline;
+
+padding: 15px;
+
+}
+
+.list-inline i {
+
+font-size: 40px;
+
+color: rgb(20, 10, 161);
+
+}
+
+.list-inline i:hover {
+
+color: rgb(120,120,120);
+
+}
+
+#introduction p {
+
+margin-bottom: 30px;
+}
